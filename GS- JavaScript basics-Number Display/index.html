@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Display</h1>
+        <form id="numberForm">
+            <label for="start">Start Number:</label>
+            <input type="number" id="start" required>
+            
+            <label for="end">End Number:</label>
+            <input type="number" id="end" required>
+            
+            <button type="submit">Display Numbers</button>
+        </form>
+        <div id="results">
+            <h2>Results:</h2>
+            <div id="allNumbers"></div>
+            <div id="oddNumbers"></div>
+            <div id="evenNumbers"></div>
+            <div id="primeNumbers"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
